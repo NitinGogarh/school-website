@@ -7,6 +7,7 @@ import About from './About';
 import Academics from './Academics';
 import Admissions from './Admissions';
 import Faculty from './Faculty';
+import Gallery from './Gallery';
 
 // import Programmes from './Programmes';
 
@@ -55,6 +56,7 @@ function Home() {
       <Academics />
       <Admissions />
       <Faculty />
+      <Gallery />
     </div>
   );
 }
