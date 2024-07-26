@@ -15,12 +15,7 @@ export default  {
           'custom-nav':'rgba(22, 34, 57, 0.95);',
           'custom-foot':'rgba(22, 34, 57, 0.95);',
       },
-      height: {
-        '112': '112px', // Custom height value
-      },
-      margin: {
-        '-6': '-1.5rem', // Tailwind doesn’t support pixel values directly for negative margin
-      },
+     
     },
   },
   variants: {
