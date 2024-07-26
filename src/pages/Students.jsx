@@ -1,7 +1,7 @@
 function Students() {
   return (
-    <div className="min-h-screen flex flex-col text-white mb-0 ">
-    <div className=" m-[50px] p-8 bg-custom-nav rounded-lg shadow-2xl sm:mb-0 sm:m-[100px] flex justify-center items-center flex-col">
+    <div className="min-h-92vh flex flex-col text-white mb-0 justify-center items-center ">
+    <div className=" m-[50px] p-8 bg-custom-nav rounded-lg shadow-2xl sm:mb-0 sm:m-[100px] flex justify-center items-center flex-col lg:max-w-[70%] text-center ">
       <h1 className="text-5xl font-bold mb-6 text-center about">Student Life at Springdale</h1>
       
       <section className="mb-8 ml-8">
@@ -34,29 +34,9 @@ function Students() {
         </ul>
       </section>
       
-      <section className="mb-8 ">
-        <h2 className="text-3xl font-semibold mb-4 subH">Achievements</h2>
-        <p className="text-lg mb-4">
-          We take pride in our students' accomplishments both academically and in various competitions. Here are some of our recent standout achievers:
-        </p>
-        <ul className="list-disc ml-8  ">
-          <li>John Smith - National Level Math Olympiad Winner</li>
-          <li>Sarah Lee - Gold Medalist in State Swimming Championship</li>
-          <li>Tech Innovators Club - Winners of Inter-School Robotics Competition</li>
-        </ul>
-      </section>
+  
       
-      <section className="mb-8 ml-8">
-        <h2 className="text-3xl font-semibold mb-4 subH">Student Council</h2>
-        <p className="text-lg mb-4 ">
-          Our Student Council plays a crucial role in representing the student body and organizing various school events and initiatives. Meet the current council members:
-        </p>
-        <ul className="list-disc ml-8 ">
-          <li>President: Amy Parker, Grade 12 - Leading with vision and dedication</li>
-          <li>Vice President: Rajiv Mehta, Grade 11 - Fostering collaboration and engagement</li>
-          <li>Secretary: Lisa Wong, Grade 10 - Organizing meetings and keeping records</li>
-        </ul>
-      </section>
+     
       
       <section className="text-center ml-8">
         <h2 className="text-3xl font-semibold mb-4 subH">Join Us!</h2>

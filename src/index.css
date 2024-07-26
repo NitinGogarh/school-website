@@ -71,10 +71,13 @@ em,.glimpses,.about,.subH,.subH2,.heading{
     font-weight: 900;
 }
 .glimpses,.subH{
-    font-size: 30px;
+    font-size: 24px;
+    font-weight: 700;
 }
 .subH2{
-    font-size: 22px;
+    
+    font-size: 24px;
+    font-weight: 700;
 }
 .profile{
     filter: brightness(50%) contrast(150%) saturate(50%);
@@ -157,11 +160,24 @@ em,.glimpses,.about,.subH,.subH2,.heading{
     .parentClass {
      grid-template-columns: 1fr 1fr;
     }
+  
   }
 @media (max-width: 676px) {
     /* Styles for screens with a width of 676px or less */
     .parentClass {
      grid-template-columns: 1fr;
+    }
+    .faculty{
+        width: 100%;
+    }
+      .facultyParent{
+        margin: 10px;
+    }
+    .subH,.subH2{
+       font-size: 21px;
+    }
+    .heading{
+        font-size: 39px;
     }
   }
 
